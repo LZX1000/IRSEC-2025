@@ -1,0 +1,17 @@
+cmd: who | egrep -v '^(drwho|martymcFly|arthurdent|sambeckett|loki|riphunter|theflash|tonystark|drstrange|bartallen):' | cut -d: -f1
+use: prints all users that are invalid
+
+cmd: ps aux --sort=-%cpu | head -n 20 | grep "malware"
+use: will search all runnikng precesses and return any with the text 'malware' in it
+
+cmd: ss -tunap
+use: prints network connections
+
+cmd: ls /etc/cron.*
+use: cron tab
+
+cmd:
+use:
+
+cmd:
+use:
